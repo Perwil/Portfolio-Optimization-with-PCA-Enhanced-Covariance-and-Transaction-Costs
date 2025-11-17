@@ -3,16 +3,32 @@ Developed and deployed an active equity portfolio solution utilizing Principal C
 
 # Solution Approach
 ##  Evaluated Risk Measures for S&P 500 and 10 other stocks
-1. Historical data for the S&P 500 Index and 10 additional stocks of your choice using yfinance.
-All functions should accept start_date and end_date as input parameters to define the analysis period.
-2. Implemented the following functions:
-A. Compute Average Daily Return:
-B. Calculate the mean daily return over the specified period.
-C. Compute Daily Volatility / Standard Deviation:
-D. Measure the standard deviation of daily returns over the specified period.
-E. Compute and determine Maximum Drawdown a specific period:
-F. Calculate the tracking error of each stock relative to the S&P 500 Index over the specified period.
-G. Calculate the Sharpe ratio using the average daily return and daily volatility over the specified period.
+We build functions accepting start_date and end_date as input parameters to evaluate this different risk measures from 2020-01-01
+to 2023-12-31. 
+---
+
+### **📊 Performance Metrics Computed in the Project**
+
+* **Average Daily Return**
+  Computes the mean daily return of each asset over the selected analysis period.
+
+* **Daily Volatility (Standard Deviation)**
+  Measures the standard deviation of daily returns, capturing the asset's risk level.
+
+* **Maximum Drawdown**
+  Calculates the largest peak-to-trough decline within the specified period, indicating downside risk.
+
+* **Tracking Error (vs. S&P 500)**
+  Computes the deviation of each stock’s returns from the S&P 500 benchmark.
+
+* **Sharpe Ratio**
+  Evaluates risk-adjusted performance using the average daily return and daily volatility.
+
+---
+![Alt text](https://raw.githubusercontent.com/<user>/<repo>/main/<image>.png)
+
+
+If you want, I can also format it with icons, bullets, or code-block styling for an even more polished GitHub README.
 
 
 PCA to extract systematic risk for improved covariance estimation

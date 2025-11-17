@@ -36,14 +36,17 @@ to 2023-12-31.
 
 ## **Implement Regression of CAPM**
 
- * **Step 1:** Collect Data in a given time period for both individual stocks and the S&P 500.
- * **Step 2:** Calculate Excess Returns for each asset over the risk-free rate.
- * **Step 3:** Regress Excess Return of each stock on the Excess Return of the S&P 500 to estimate market beta.
+ * **Step 1:** **Collect Data in a given time period for both individual stocks and the S&P 500**.
+ * **Step 2:** **Calculate Excess Returns for each asset over the risk-free rate.**
+ * **Step 3:** **Regress Excess Return of each stock on the Excess Return of the S&P 500 to estimate market beta.**
+   <div align="center">
+  <img src="CAPM Regression.png">
+</div>
 ## **Minimizing Portfolio Risk**
 * **Estimate covariance matrix of the 10 chosen stocks**
 * **Build a minimized risk portfolio using your picked stocks**
   <div align="center">
-  <img src="Daily Returns.png">
+  <img src="Minimize_Risk_Portfolio.png">
 </div>
 
 

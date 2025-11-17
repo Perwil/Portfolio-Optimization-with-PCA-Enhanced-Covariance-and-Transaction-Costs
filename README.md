@@ -25,7 +25,8 @@ to 2023-12-31.
   Evaluates risk-adjusted performance using the average daily return and daily volatility.
 
 ---
-![Alt text](https://raw.githubusercontent.com/<user>/<repo>/main/<image>.png)
+![My Plot](images/myplot.png)
+
 
 
 If you want, I can also format it with icons, bullets, or code-block styling for an even more polished GitHub README.

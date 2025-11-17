@@ -2,7 +2,18 @@
 Developed and deployed an active equity portfolio solution utilizing Principal Component Analysis for high-precision covariance estimation and transaction cost modeling. Achieved risk-adjusted, stable allocations with significant improvement in portfolio return and cost efficiency.
 
 # Solution Approach
-# *Summarize essential methods, algorithms, and modeling choices, making sure technical readers grasp your depth:*
+##  Evaluated Risk Measures for S&P 500 and 10 other stocks
+1. Historical data for the S&P 500 Index and 10 additional stocks of your choice using yfinance.
+All functions should accept start_date and end_date as input parameters to define the analysis period.
+2. Implemented the following functions:
+A. Compute Average Daily Return:
+B. Calculate the mean daily return over the specified period.
+C. Compute Daily Volatility / Standard Deviation:
+D. Measure the standard deviation of daily returns over the specified period.
+E. Compute and determine Maximum Drawdown a specific period:
+F. Calculate the tracking error of each stock relative to the S&P 500 Index over the specified period.
+G. Calculate the Sharpe ratio using the average daily return and daily volatility over the specified period.
+
 
 PCA to extract systematic risk for improved covariance estimation
 

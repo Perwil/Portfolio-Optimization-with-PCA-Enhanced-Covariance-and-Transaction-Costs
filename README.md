@@ -3,33 +3,49 @@ Developed and deployed an active equity portfolio solution utilizing Principal C
 
 # Solution Approach
 ##  Evaluated Risk Measures for S&P 500 and 10 other stocks
-We build functions accepting start_date and end_date as input parameters to evaluate this different risk measures from 2020-01-01
+We wrote functions accepting start_date and end_date as input parameters to evaluate this different risk measures from 2020-01-01
 to 2023-12-31. 
 ---
 
 ### **📊 Performance Metrics Computed in the Project**
 
-* **Average Daily Return**
+* **Average Daily Return:** 
   Computes the mean daily return of each asset over the selected analysis period.
 
-* **Daily Volatility (Standard Deviation)**
+* **Daily Volatility (Standard Deviation):** 
   Measures the standard deviation of daily returns, capturing the asset's risk level.
 
-* **Maximum Drawdown**
+* **Maximum Drawdown:** 
   Calculates the largest peak-to-trough decline within the specified period, indicating downside risk.
 
-* **Tracking Error (vs. S&P 500)**
+* **Tracking Error (vs. S&P 500):** 
   Computes the deviation of each stock’s returns from the S&P 500 benchmark.
 
-* **Sharpe Ratio**
+* **Sharpe Ratio:**
   Evaluates risk-adjusted performance using the average daily return and daily volatility.
 
----
-![My Plot](images/myplot.png)
+* **Value at Risk (VaR):**
+  Expected maximum loss at a given confidence level.
+  
+* **Compute Conditional Value at Risk (CVaR / Expected Shortfall):**
+  Average loss beyond the VaR threshold. 
 
+  <div align="center">
+  <img src="Daily Returns.png">
+</div>
 
+## **Implement Regression of CAPM**
 
-If you want, I can also format it with icons, bullets, or code-block styling for an even more polished GitHub README.
+ * **Step 1:** Collect Data in a given time period for both individual stocks and the S&P 500.
+ * **Step 2:** Calculate Excess Returns for each asset over the risk-free rate.
+ * **Step 3:** Regress Excess Return of each stock on the Excess Return of the S&P 500 to estimate market beta.
+## **Minimizing Portfolio Risk**
+* **Estimate covariance matrix of the 10 chosen stocks**
+* **Build a minimized risk portfolio using your picked stocks**
+  <div align="center">
+  <img src="Daily Returns.png">
+</div>
+
 
 
 PCA to extract systematic risk for improved covariance estimation

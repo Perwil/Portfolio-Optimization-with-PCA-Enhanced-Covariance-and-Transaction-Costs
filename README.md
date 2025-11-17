@@ -42,6 +42,7 @@ to 2023-12-31.
    <div align="center">
   <img src="CAPM Regression.png">
 </div>
+
 ## **Minimizing Portfolio Risk**
 * **Estimate covariance matrix of the 10 chosen stocks**
 * **Build a minimized risk portfolio using your picked stocks**
@@ -49,6 +50,9 @@ to 2023-12-31.
   <img src="Minimize_Risk_Portfolio.png">
 </div>
 
+## **Building Markowitz Portfolio**
+* **We use risk aversion levels in your portfolio optimization and observe how the parameter changes your optimal holdings**
+* **We include initial cash in our Portfolio** 
 
 
 PCA to extract systematic risk for improved covariance estimation

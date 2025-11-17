@@ -43,16 +43,26 @@ to 2023-12-31.
   <img src="CAPM Regression.png">
 </div>
 
-## **Minimizing Portfolio Risk**
+## **1 Minimizing Portfolio Risk**
 * **Estimate covariance matrix of the 10 chosen stocks**
 * **Build a minimized risk portfolio using your picked stocks**
   <div align="center">
   <img src="Minimize_Risk_Portfolio.png">
 </div>
 
-## **Building Markowitz Portfolio**
+## **First Model Building Markowitz Portfolio**
 * **We use risk aversion levels in your portfolio optimization and observe how the parameter changes your optimal holdings**
-* **We include initial cash in our Portfolio** 
+* **We include initial cash in our Portfolio**
+  <div align="center">
+  <img src="MPRA.png">
+</div>
+
+## ** Second Model: Building Markowitz Portfolio**
+* **We add transaction cost term to Markowitz Portfolio model**
+* **We use 0 as initial position or use a random vector initial position.**
+* **For transaction cost coefficient, we use 2bps of trade size in USD.**
+* **we multiply the risk/return term by holding period to convert unit to USD, so that unit of all terms in the objective function is consistent with each other**.
+
 
 
 PCA to extract systematic risk for improved covariance estimation

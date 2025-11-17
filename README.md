@@ -57,12 +57,18 @@ to 2023-12-31.
   <img src="MPRA.png">
 </div>
 
-## ** Second Model: Building Markowitz Portfolio**
+## **Second Model: Building Markowitz Portfolio**
 * **We add transaction cost term to Markowitz Portfolio model**
 * **We use 0 as initial position or use a random vector initial position.**
 * **For transaction cost coefficient, we use 2bps of trade size in USD.**
 * **we multiply the risk/return term by holding period to convert unit to USD, so that unit of all terms in the objective function is consistent with each other**.
+<div align="center">
+  <img src="PicMP.png">
+</div>
 
+## **Active Asset Management**
+* **Build your active portfolio**
+  
 
 
 PCA to extract systematic risk for improved covariance estimation

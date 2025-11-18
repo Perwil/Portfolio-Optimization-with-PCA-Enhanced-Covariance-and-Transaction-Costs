@@ -1,8 +1,8 @@
 # **Portfolio-Optimization-with-PCA-Enhanced-Covariance-and-Transaction-Costs**
 **Developed and deployed an active equity portfolio solution utilizing Principal Component Analysis for high-precision covariance estimation and transaction cost modeling. Achieved risk-adjusted, stable allocations with significant improvement in portfolio return and cost efficiency.**
 
-#  Evaluated Risk Measures for S&P 500 and 10 other stocks
-We wrote functions accepting start_date and end_date as input parameters to evaluate this different risk measures from 2020-01-01
+#  **Evaluated Risk Measures for S&P 500 and 10 other stocks**
+Below are functions accepting start_date and end_date as input parameters to evaluate this different risk measures from 2020-01-01
 to 2023-12-31. 
 ---
 

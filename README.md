@@ -1,13 +1,12 @@
-# Portfolio-Optimization-with-PCA-Enhanced-Covariance-and-Transaction-Costs
-Developed and deployed an active equity portfolio solution utilizing Principal Component Analysis for high-precision covariance estimation and transaction cost modeling. Achieved risk-adjusted, stable allocations with significant improvement in portfolio return and cost efficiency.
+# **Portfolio-Optimization-with-PCA-Enhanced-Covariance-and-Transaction-Costs**
+*Developed and deployed an active equity portfolio solution utilizing Principal Component Analysis for high-precision covariance estimation and transaction cost modeling. Achieved risk-adjusted, stable allocations with significant improvement in portfolio return and cost efficiency.*
 
-# Solution Approach
-##  Evaluated Risk Measures for S&P 500 and 10 other stocks
+#  Evaluated Risk Measures for S&P 500 and 10 other stocks
 We wrote functions accepting start_date and end_date as input parameters to evaluate this different risk measures from 2020-01-01
 to 2023-12-31. 
 ---
 
-### **📊 Performance Metrics Computed in the Project**
+## **Performance Metrics Computed in the Project**
 
 * **Average Daily Return:** 
   Computes the mean daily return of each asset over the selected analysis period.
@@ -34,7 +33,7 @@ to 2023-12-31.
   <img src="Daily Returns.png">
 </div>
 
-## **Implement Regression of CAPM**
+# **Implement Regression of CAPM**
 
  * **Step 1:** **Collect Data in a given time period for both individual stocks and the S&P 500**.
  * **Step 2:** **Calculate Excess Returns for each asset over the risk-free rate.**
@@ -43,21 +42,21 @@ to 2023-12-31.
   <img src="CAPM Regression.png">
 </div>
 
-## **1 Minimizing Portfolio Risk**
+# **1. Minimizing Portfolio Risk**
 * **Estimate covariance matrix of the 10 chosen stocks**
 * **Build a minimized risk portfolio using your picked stocks**
   <div align="center">
   <img src="Minimize_Risk_Portfolio.png">
 </div>
 
-## **First Model Building Markowitz Portfolio**
+# **2. Model Building Markowitz Portfolio**
 * **We use risk aversion levels in your portfolio optimization and observe how the parameter changes your optimal holdings**
 * **We include initial cash in our Portfolio**
   <div align="center">
   <img src="MPRA.png">
 </div>
 
-## **Second Model: Building Markowitz Portfolio**
+# **3. Building Markowitz Portfolio**
 * **We add transaction cost term to Markowitz Portfolio model**
 * **We use 0 as initial position or use a random vector initial position.**
 * **For transaction cost coefficient, we use 2bps of trade size in USD.**
@@ -66,61 +65,50 @@ to 2023-12-31.
   <img src="PicMP.png">
 </div>
 
-## **Active Asset Management**
-* **Build your active portfolio**
+# **4. Active Asset Management:Building an active portfolio**
   
+* **PCA to extract systematic risk for improved covariance estimation**
 
+* **Integration of asset-specific idiosyncratic risk for robust allocation**
 
-PCA to extract systematic risk for improved covariance estimation
+* **CVXPY-based constrained optimization, balancing expected return, variance, and trading costs**
 
-Integration of asset-specific idiosyncratic risk for robust allocation
+# **Main Results & Data Highlights**
+* **Present actionable quantitative outcomes up front**
 
-CVXPY-based constrained optimization, balancing expected return, variance, and trading costs
+* **Portfolio of top S&P 500 equities—optimized for 252 trading days, starting from $1 million capital**
 
-Main Results & Data Highlights
-Present actionable quantitative outcomes up front:
+* **Transaction cost per rebalance: $200.00​**
 
-Portfolio of top S&P 500 equities—optimized for 252 trading days, starting from $1 million capital
+* **Projected annualized return: $105,021.92​**
 
-Sharpe Ratios: e.g., Apple 0.0496, Microsoft 0.0258, Johnson & Johnson 0.0746​
+* **Weights and trades explicitly shown for transparency**
 
-Transaction cost per rebalance: $200.00​
+# **Metric	Value**
+* **Holding Period	252 days**
+* **Initial Investment	$1,000,000**
+* **Expected Return	$105,021.92**
+* **Transaction Cost	$200.00**
 
-Projected annualized return: $105,021.92​
-
-Weights and trades explicitly shown for transparency
-
-Metric	Value
-Holding Period	252 days
-Initial Investment	$1,000,000
-Expected Return	$105,021.92
-Transaction Cost	$200.00
-Industry-Relevant Skills
+# **Industry-Relevant Skills**
 List technologies and methodologies as both badges and keywords:
 
-Python, Pandas, NumPy, yFinance API
+* **Python, Pandas, NumPy, yFinance API**
 
-PCA, Portfolio Theory, Risk Metrics (VaR, CVaR, Tracking Error)
+* **PCA, Portfolio Theory, Risk Metrics (VaR, CVaR, Tracking Error)**
 
-CVXPY, Quadratic Programming, Data Visualization
+* **CVXPY, Quadratic Programming, Data Visualization**
 
-Financial Modeling Best Practices, Transaction Cost Analysis
+* **Financial Modeling Best Practices, Transaction Cost Analysis**
 
-Impact & What Makes It Stand Out
-“Brings together state-of-the-art quantitative risk modeling and practical execution constraints in a scalable framework applicable to real trading environments.”
+# **Impact & What Makes It Stand Out**
+* **“Brings together state-of-the-art quantitative risk modeling and practical execution constraints in a scalable framework applicable to real trading environments.”**
 
-“Demonstrated robust estimation under high-dimensionality, balancing theoretical rigor with realistic implementation.”
+* **“Demonstrated robust estimation under high-dimensionality, balancing theoretical rigor with realistic implementation.”**
 
-How to Run & Explore
-Give quickstart instructions for notebook execution and suggestions for parameter changes, so readers can experiment and replicate:
+# **How to Run & Explore**
 
-Requirements.txt (CVXPY, scikit-learn, yFinance)
 
-Step-by-step command for running simulations or updating tickers
+* **Requirements.txt (CVXPY, scikit-learn, yFinance)**
 
-Final Touches
-Add visuals: covariance heatmap, weight barplot, risk/return chart
 
-Link to supplementary report or presentation slide deck (if available)
-
-State you welcome professional connection and feedback from practitioners
